@@ -17,14 +17,11 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @GetMapping("/signup")
-    public ResponseEntity<?> Signup(@RequestBody User user)
+    @GetMapping("/hello")
+    public ResponseEntity<?> Signup()
     {
-            boolean isSignup = this.userService.singup(user);
+          return new ResponseEntity<>("Hi",HttpStatus.OK);
 
-            if(!isSignup) return new ResponseEntity<>("User can't be Created", HttpStatus.CONFLICT);
-
-            return new ResponseEntity<>("User Created Successfully",HttpStatus.CREATED);
     }
 
 }
