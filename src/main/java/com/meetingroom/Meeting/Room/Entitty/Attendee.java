@@ -30,6 +30,9 @@ public class Attendee {
     private boolean isHost;
 
     @Column(nullable = false)
+    private int user_id;
+
+    @Column(nullable = false)
     private boolean waitingRoom;
 }
 

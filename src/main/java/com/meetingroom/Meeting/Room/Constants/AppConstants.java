@@ -15,4 +15,7 @@ public class AppConstants {
 
     public static final String AUTHORIZATION_HEADER = "Authorization";
 
+
+    public static final int MEETING_WINDOW_TIME = 45;
+
 }

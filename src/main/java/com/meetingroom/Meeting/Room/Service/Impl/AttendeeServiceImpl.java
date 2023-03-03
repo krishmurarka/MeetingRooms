@@ -6,6 +6,7 @@ import com.meetingroom.Meeting.Room.Repository.AttendeeRepo;
 import com.meetingroom.Meeting.Room.Service.AttendeeService;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.extern.slf4j.Slf4j;
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,6 +17,7 @@ public class AttendeeServiceImpl implements AttendeeService {
 
     @Autowired
     private AttendeeRepo attendeeRepo;
+
 
     @Override
     public Attendee getAttendee(Long id) {

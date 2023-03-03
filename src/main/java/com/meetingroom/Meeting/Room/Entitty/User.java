@@ -28,6 +28,8 @@ public class User implements UserDetails {
     private String username;
     private String password;
 
+    private String name;
+
     @ManyToMany(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
     @JoinTable(name = "user_role",
             joinColumns =  @JoinColumn(name = "user", referencedColumnName = "id"),

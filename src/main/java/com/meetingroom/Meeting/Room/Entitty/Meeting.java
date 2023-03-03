@@ -31,7 +31,10 @@ public class Meeting {
     private boolean waitingRoomEnabled;
 
     @Column(nullable = false)
-    private Long hostId;
+    private int hostId;
+
+    @Column(nullable = false)
+    private boolean isActive;
 
     @OneToMany(mappedBy = "meeting", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Attendee> attendees = new ArrayList<>();
