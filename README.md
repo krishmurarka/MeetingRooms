@@ -1,20 +1,29 @@
-Project Name: MeetingRoom
+Video Conferencing Platform
+This project is a video conferencing platform that allows users to create and join video meetings in real-time. It uses WebRTC technology for video and audio communication, and is implemented using the Spring MVC framework.
 
-Project Description: MeetingRoom is a web-based video conferencing application that allows users to connect with each other in real-time, similar to Zoom. Users can create or join meetings, chat with other participants, share their screens, and record the meeting.
+Features
+Create and join video meetings with a unique meeting ID
+Host can control the meeting by adding and removing attendees, muting and unmuting attendees, and ending the meeting
+Waiting room feature that requires the host to approve each attendee before they can join the meeting
+Automatic end time feature that ends the meeting when the scheduled end time is reached
+Real-time signaling server that facilitates peer-to-peer communication between attendees using WebRTC
+Technologies Used
+Spring MVC
+WebRTC
+WebSocket
+Signaling Server
+ModelMapper
+Getting Started
+To get started with the project, follow these steps:
 
-Technology Stack:
+Clone the repository
+Build and run the project using Maven and Spring Boot
+Open the application in your browser
+Create a new meeting or join an existing one using a unique meeting ID
+Enjoy real-time video conferencing with your attendees
+Contributing
+Contributions to the project are welcome. If you find a bug or want to suggest an enhancement, please submit an issue on GitHub. If you want to contribute code, please fork the repository and submit a pull request.
 
-Backend: Java Spring (Spring Boot, Spring Security, Spring Data JPA)
-Frontend: React.js
-Database: MySQL
-WebRTC: Jitsi Meet
-Features:
+Credits
+This project was developed by @KRISH MURARKA & @Kunal Roy as a part of a [Project] at [KIIT UNIVERSITY]. It was developed with the help of online resources, including the official documentation for Spring MVC and WebRTC.
 
-User Authentication: Users can register and login to the application using their email and password.
-Meeting Creation: Users can create a meeting by providing a name and description for the meeting. The application generates a unique meeting ID that can be shared with other participants.
-Meeting Joining: Participants can join a meeting by entering the meeting ID provided by the host.
-Real-time Video Conferencing: The application uses WebRTC technology to provide real-time video conferencing between participants.
-Chat: Participants can chat with each other during the meeting.
-Screen Sharing: Participants can share their screen with other participants during the meeting.
-Recording: The application can record the meeting and make it available for playback after the meeting has ended.
-User Management: The host can manage the participants in the meeting, including removing participants or granting them host privileges.
