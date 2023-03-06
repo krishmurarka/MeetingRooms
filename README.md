@@ -1,29 +1,40 @@
-Video Conferencing Platform
-This project is a video conferencing platform that allows users to create and join video meetings in real-time. It uses WebRTC technology for video and audio communication, and is implemented using the Spring MVC framework.
+# Meeting Room
 
-Features
-Create and join video meetings with a unique meeting ID
-Host can control the meeting by adding and removing attendees, muting and unmuting attendees, and ending the meeting
-Waiting room feature that requires the host to approve each attendee before they can join the meeting
-Automatic end time feature that ends the meeting when the scheduled end time is reached
-Real-time signaling server that facilitates peer-to-peer communication between attendees using WebRTC
-Technologies Used
-Spring MVC
-WebRTC
-WebSocket
-Signaling Server
-ModelMapper
-Getting Started
-To get started with the project, follow these steps:
+Meeting Room is a web-based real-time video conferencing platform that allows users to create and join virtual meetings. It is built using Java and Spring Framework, and leverages WebRTC technology for real-time communication.
 
-Clone the repository
-Build and run the project using Maven and Spring Boot
-Open the application in your browser
-Create a new meeting or join an existing one using a unique meeting ID
-Enjoy real-time video conferencing with your attendees
-Contributing
-Contributions to the project are welcome. If you find a bug or want to suggest an enhancement, please submit an issue on GitHub. If you want to contribute code, please fork the repository and submit a pull request.
+# Features
+##### Create and join virtual meetings
+#### Host controls to manage attendees and end the meeting
+##### Waiting room to ensure secure and controlled access to the meeting
+##### Real-time video and audio communication using WebRTC technology
+##### Signaling server for WebRTC communication
 
+# Technologies Used
+##### Java
+##### Spring Framework
+##### WebRTC
+##### WebSocket
+##### Signaling server
+# Installation
+##### Clone the repository
+##### Open the project in your preferred IDE
+#####Run the project
+# Usage
+#####Open the Meeting Room application in your web browser
+#####Click on the "Create Meeting" button to create a new meeting
+#####Share the meeting link with the attendees
+#####Attendees can join the meeting by clicking on the link
+#####Host can manage attendees and end the meeting using host controls
+#####Attendees can use the chat feature for real-time messaging during the meeting
+#####The meeting ends automatically when the scheduled end time is reached
+#Contributing
+ We welcome contributions to the Meeting Room project. Please follow these steps to contribute:
+
+#####Fork the repository
+#####Create a new branch for your changes
+#####Make your changes and commit them
+#####Push your changes to your fork
+#####Submit a pull request with a detailed description of your changes
 Credits
-This project was developed by @KRISH MURARKA & @Kunal Roy as a part of a [Project] at [KIIT UNIVERSITY]. It was developed with the help of online resources, including the official documentation for Spring MVC and WebRTC.
+Meeting Room was created by [KRISH MURARKA], with contributions from [KUNAL ROY]
 
