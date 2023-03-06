@@ -1,20 +1,40 @@
-Project Name: MeetingRoom
+# Meeting Room
 
-Project Description: MeetingRoom is a web-based video conferencing application that allows users to connect with each other in real-time, similar to Zoom. Users can create or join meetings, chat with other participants, share their screens, and record the meeting.
+Meeting Room is a web-based real-time video conferencing platform that allows users to create and join virtual meetings. It is built using Java and Spring Framework, and leverages WebRTC technology for real-time communication.
 
-Technology Stack:
+# Features
+##### Create and join virtual meetings
+#### Host controls to manage attendees and end the meeting
+##### Waiting room to ensure secure and controlled access to the meeting
+##### Real-time video and audio communication using WebRTC technology
+##### Signaling server for WebRTC communication
 
-Backend: Java Spring (Spring Boot, Spring Security, Spring Data JPA)
-Frontend: React.js
-Database: MySQL
-WebRTC: Jitsi Meet
-Features:
+# Technologies Used
+##### Java
+##### Spring Framework
+##### WebRTC
+##### WebSocket
+##### Signaling server
+# Installation
+##### Clone the repository
+##### Open the project in your preferred IDE
+#####Run the project
+# Usage
+#####Open the Meeting Room application in your web browser
+#####Click on the "Create Meeting" button to create a new meeting
+#####Share the meeting link with the attendees
+#####Attendees can join the meeting by clicking on the link
+#####Host can manage attendees and end the meeting using host controls
+#####Attendees can use the chat feature for real-time messaging during the meeting
+#####The meeting ends automatically when the scheduled end time is reached
+#Contributing
+ We welcome contributions to the Meeting Room project. Please follow these steps to contribute:
 
-User Authentication: Users can register and login to the application using their email and password.
-Meeting Creation: Users can create a meeting by providing a name and description for the meeting. The application generates a unique meeting ID that can be shared with other participants.
-Meeting Joining: Participants can join a meeting by entering the meeting ID provided by the host.
-Real-time Video Conferencing: The application uses WebRTC technology to provide real-time video conferencing between participants.
-Chat: Participants can chat with each other during the meeting.
-Screen Sharing: Participants can share their screen with other participants during the meeting.
-Recording: The application can record the meeting and make it available for playback after the meeting has ended.
-User Management: The host can manage the participants in the meeting, including removing participants or granting them host privileges.
+#####Fork the repository
+#####Create a new branch for your changes
+#####Make your changes and commit them
+#####Push your changes to your fork
+#####Submit a pull request with a detailed description of your changes
+Credits
+Meeting Room was created by [KRISH MURARKA], with contributions from [KUNAL ROY]
+
